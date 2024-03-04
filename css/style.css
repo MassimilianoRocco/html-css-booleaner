@@ -4,11 +4,6 @@
     box-sizing: border-box;
 }
 
-img{
-    max-width: 100%;
-}
-
-
 header{
     height: 110px;
     background-color: rgb(45, 140, 204);
@@ -27,6 +22,7 @@ header{
 
 .titolo{
     font-size: 70px;
+    margin-top: 10px;
 }
 
 .scritto-text{
@@ -40,3 +36,70 @@ header{
     color:deepskyblue;
     display: inline;
 }
+
+.imgA{
+    width: 49%;
+    height: 600px;
+}
+
+.lorem{
+    margin-top: 50px;
+    font-size: 28px;   
+}
+
+.text-background{
+    background-color: yellow;
+}
+
+ul{
+    padding-left: 30px;
+}
+
+table{
+    border-collapse: collapse;
+    margin-top: 40px;
+}
+td{
+    width: 30%;
+}
+thead{
+    color: white;
+    background-color: deepskyblue;
+}
+
+tr:nth-child(odd) {
+    background-color: rgba(0, 191, 255,0.3);
+  }
+
+.last-text{
+    margin-top: 50px;
+}
+
+footer{
+    margin-top: 50px;
+    font-size: 28px; 
+    color: rgb(138, 133, 133);
+    font-weight: 600;
+}
+
+.box{
+    width: 20%;
+    height: 300px;
+    margin-top: 15px;
+    background-size: cover;
+    color: white;
+}
+
+.imageI{
+    background-image: url(../img/monitor.jpg);
+}
+
+.imageII{
+    background-image: url(../img/graph.jpg);
+}
+
+.ext{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
